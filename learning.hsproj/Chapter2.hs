@@ -1,4 +1,4 @@
-module Learn where
+module Chapter2 where
 
 a = (\x y -> x * 3 + y)(3)(1000)
 

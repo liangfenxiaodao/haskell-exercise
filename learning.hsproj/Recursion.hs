@@ -1,3 +1,5 @@
+module Recursion where
+  
 fb ::(Eq a, Num a) => a -> Integer
 fb x
   | x == 0 = 0

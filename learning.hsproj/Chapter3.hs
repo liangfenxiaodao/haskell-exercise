@@ -1,4 +1,4 @@
-module StringLearning where
+module Chapter3 where
 
 myGreeting :: String
 myGreeting = "Hello" ++ " world"

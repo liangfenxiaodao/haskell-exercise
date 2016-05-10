@@ -1,4 +1,5 @@
-
+module Curring where
+  
 -- Generally, if you have a function like foo a = bar b a, you can rewrite it as foo = bar b, because of currying.
 
 -- If we take into account that functions are curried, we can write the following implementation

@@ -1,4 +1,4 @@
-module Exercise where
+module Chapter6 where
 
 -- Prelude> :t print
 -- print :: Show a => a -> IO ()
@@ -40,7 +40,7 @@ data EitherOr a b = Hello a | Goodbye b
 -- because '>' is a function that belongs to typeclass Ord
 
 -- :info Int
--- data Int = GHC.Types.I# GHC.Prim.Int# 	-- Defined in ‘GHC.Types’
+-- data Int = GHC.Types.I# GHC.Prim.Int#  -- Defined in ‘GHC.Types’
 -- instance Bounded Int -- Defined in ‘GHC.Enum’
 -- instance Enum Int -- Defined in ‘GHC.Enum’
 -- instance Eq Int -- Defined in ‘GHC.Classes’

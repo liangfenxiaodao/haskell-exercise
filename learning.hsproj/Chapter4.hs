@@ -1,4 +1,4 @@
-module DataType where
+module Chapter4 where
 
 data Mood = Blah | Woot deriving Show
 

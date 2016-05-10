@@ -1,3 +1,5 @@
+module Chapter5 where
+  
 -- Type Class and Concrete type
 
 -- Prelude> let fifteen = 15
