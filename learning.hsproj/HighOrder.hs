@@ -60,3 +60,6 @@ oddSquareSum' = sum . takeWhile (<10000) . filter odd . map (^2) $ [1..]
 
 -- find out how many times each element appears in the list.
 -- map (\list@(x:xs) -> (x,length list)) . group . sort $ [1,1,1,1,2,2,2,2,3,3,2,2,2,5,6,7]
+
+respondPalindromes = unlines . map (\xs -> if isPalindromes xs then "palindrome" else "not a palindrome") . lines
+                        where isPalindromes xs = xs == reverse xs

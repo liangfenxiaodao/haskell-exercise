@@ -10,14 +10,19 @@ Executable Untitled
   main-is: Optional.hs
   buildable: True
   build-depends:
-      base -any
+      base -any,
+      containers -any
   other-modules:
-      Recursion
       Chapter2
+      Palindromes
+      Recursion
+      Fold
+      Chapter6
+      BinarySearchTree
       Chapter4
       Chapter3
       Chapter5
-      Chapter6
-      Fold
+      TypeClassExercise
+      TypeClass
       Curring
       HighOrder

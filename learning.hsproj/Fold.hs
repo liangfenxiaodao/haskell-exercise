@@ -10,6 +10,9 @@ module Fold where
 -- Then, the binary function is called again with the new accumulator and the now new first (or last) element, and so on.
 -- Once we've walked over the whole list, only the accumulator remains, which is what we've reduced the list to.
 
+
+-- the left fold's binary function has the accumulator as the first parameter and the current value as the second one (so \acc x -> ...), the right fold's binary function has the current value as the first parameter and the accumulator as the second one (so \x acc -> ...).
+ 
 -- with Fold, this implementation can be simplified to
 
 ele ::(Eq a) => a -> [a] -> Bool

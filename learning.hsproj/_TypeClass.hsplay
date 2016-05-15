@@ -1,0 +1,68 @@
+-- Haskell Playground 1.0
+surface (Circle 0 0 10)
+
+Circle 0 0 10
+
+map (Circle 2 2) [1, 2, 3]
+
+
+
+
+
+
+
+
+
+
+
+surface1 (Circle1 (Point 0 0) 1)
+let rec = Rectangle1 (Point 1 1) (Point 2 2)
+surface1 rec
+
+
+nudge (Circle1 (Point 10 10) 2) 20 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let person = Person "Buddy" "Finklestein" 43 184.2 "526-2928" "Chocolate"
+
+person
+
+firstName person
+
+
+Just 84
+Just "8"
+Just '8'
+Nothing
+
+let jacky = Man "Jacky"
+let fiona = Man "Fiona"
+jacky == fiona
+jacky == Man "Jacky"
+
+minBound :: Day
+compare Tuesday Thursday
+succ Monday
+pred Sunday
+
+[Tuesday .. Saturday]
+

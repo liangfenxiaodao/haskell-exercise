@@ -1,0 +1,6 @@
+-- Haskell Playground 1.0
+let nums = [8,6,4,1,7,3,5]
+let tree = foldr treeInsert EmptyTree nums
+tree
+treeElem 8 tree
+treeElem 9 tree
